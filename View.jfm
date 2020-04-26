@@ -1,6 +1,6 @@
 object View: TFXGuiForm
-  Left = 703
-  Top = 486
+  Left = 243
+  Top = 873
   BorderIcons = [biSystemMenu]
   Caption = 'View'
   ClientHeight = 223
@@ -10,12 +10,13 @@ object View: TFXGuiForm
   FormStyle = fsStayOnTop
   OldCreateOrder = True
   Position = poDesigned
+  ShowHint = True
   Visible = True
   OnClose = FormClose
   OnCloseQuery = FormCloseQuery
   OnResize = FormResize
   FrameType = 8
-  Modified = True
+  Modified = False
   Resizable = True
   Undecorated = False
   Background = clBtnFace
@@ -65,11 +66,11 @@ object View: TFXGuiForm
     TextAlignment = _TA_LEFT
     WrapText = False
   end
-  object bOK: TFXButton
+  object bUnbekannt1: TFXButton
     Tag = 105
-    Left = 104
+    Left = 48
     Top = 48
-    Width = 41
+    Width = 57
     Height = 33
     Hint = 'button1'
     Font.Charset = DEFAULT_CHARSET
@@ -79,13 +80,13 @@ object View: TFXGuiForm
     Font.Style = []
     Foreground = clBlack
     Background = clBtnFace
-    LayoutX = 104
+    LayoutX = 48
     LayoutY = 48
     Disable = False
     Cache = False
     dragOver = ''
     PrefHeight = 33
-    PrefWidth = 41
+    PrefWidth = 57
     SnapToPixel = False
     Alignment = CENTER
     ContentDisplay = _CD_LEFT
@@ -94,10 +95,10 @@ object View: TFXGuiForm
     TextFill = 3355443
     GraphicTextGap = 4
     MnemonicParsing = False
-    Text = 'OK'
+    Text = 'unbekannt1'
     TextAlignment = _TA_LEFT
     WrapText = False
-    action = 'bOK_Action'
+    action = 'bUnbekannt1_Action'
     CancelButton = False
     DefaultButton = False
   end
