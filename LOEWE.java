@@ -5,8 +5,8 @@ public class LOEWE implements Audio
 
     LOEWE()
     {
-        gewicht = 100;
-        alter = 3;
+        gewicht = 20;
+        alter = 2;
     }
 
     LOEWE(int alterNeu, int gewichtNeu)
