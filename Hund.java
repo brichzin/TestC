@@ -24,5 +24,15 @@ public class Hund implements Audio
     {
         return alter;
     }
+    
+    public void setName(String nameNeu)
+    {
+        name = nameNeu;
+    }
+    
+    public void setAlter(int alterNeu)
+    {
+        alter = alterNeu;
+    }
 
 }
