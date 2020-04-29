@@ -18,4 +18,14 @@ class RIESENFAULTIER implements Audio
     public String lautGeben() {
         return "uuuuuuuuuuuuaaaaaa";
     }
+    
+    int getAlter()
+    {
+        return alter;
+    }
+    
+    int getGewicht()
+    {
+        return gewicht;
+    }
 }
