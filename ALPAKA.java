@@ -26,4 +26,9 @@ public class ALPAKA implements Audio
     public int GewichtGeben(){
         return gewicht;
     }
+    
+    void setGewicht(int gewichtNeu)
+    {
+        gewicht = gewichtNeu;
+    }
 }
