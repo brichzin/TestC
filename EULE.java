@@ -18,4 +18,8 @@ public class EULE implements Audio
     public String lautGeben() {
         return "SchuHu";
     }
+    
+    public void setAlter(int nAlter) {
+        alter = nAlter;
+    }
 }
