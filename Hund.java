@@ -6,7 +6,8 @@ public class Hund implements Audio
 
     public Hund()
     {
-        name = "Mia";
+
+        name = "Lassie";
         alter = 5;
     }
 
