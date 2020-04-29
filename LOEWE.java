@@ -18,4 +18,15 @@ public class LOEWE implements Audio
     public String lautGeben() {
         return "RRRRRooooaaaRRRR";
     }
+    
+    public int alterGeben()
+    { 
+        return alter;
+    }
+    
+    public int gewichtGeben()
+    { 
+        return alter;
+    }
+
 }
