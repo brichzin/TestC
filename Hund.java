@@ -6,13 +6,9 @@ public class Hund implements Audio
 
     public Hund()
     {
-<<<<<<< HEAD
+
         name = "Lassie";
-        alter = 3;
-=======
-        name = "Mia";
         alter = 5;
->>>>>>> faff4d3688c054ad150006c5c975030e42bb12ae
     }
 
     public String lautGeben()
