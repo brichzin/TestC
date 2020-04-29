@@ -15,6 +15,12 @@ public class ALPAKA implements Audio
         alter = alterNeu;
     }
     
+    public void SetAlter(int alterNeu)
+    {
+        alter = alterNeu;
+    }
+    
+    
     public String lautGeben() {
         return "KCHSCH";
     }
@@ -25,5 +31,10 @@ public class ALPAKA implements Audio
     
     public int GewichtGeben(){
         return gewicht;
+    }
+    
+    void setGewicht(int gewichtNeu)
+    {
+        gewicht = gewichtNeu;
     }
 }
