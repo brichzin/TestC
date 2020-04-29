@@ -5,8 +5,8 @@ public class ALPAKA implements Audio
     
     ALPAKA()
     {
-        gewicht = 54;
-        alter = 3;
+        gewicht = 60;
+        alter = 5;
     }
     
     ALPAKA(int alterNeu, int gewichtNeu)
