@@ -6,7 +6,7 @@ public class EULE implements Audio
     EULE()
     {
         gewicht = 2;
-        alter = 20;
+        alter = 150;
     }
     
     EULE(int alterNeu, int gewichtNeu)
