@@ -5,7 +5,7 @@ public class LOEWE implements Audio
 
     LOEWE()
     {
-        gewicht = 20;
+        gewicht = 10;
         alter = 1;
     }
 
