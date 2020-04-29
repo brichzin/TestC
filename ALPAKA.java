@@ -18,4 +18,12 @@ public class ALPAKA implements Audio
     public String lautGeben() {
         return "KCHSCH";
     }
+    
+    public int AlterGeben(){
+        return alter;
+    }
+    
+    public int GewichtGeben(){
+        return gewicht;
+    }
 }
