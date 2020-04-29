@@ -5,8 +5,8 @@ class RIESENFAULTIER implements Audio
     
     RIESENFAULTIER()
     {
-        gewicht = 250;
-        alter = 6;
+        gewicht = -2131234;
+        alter = 6423423;
     }
     
     RIESENFAULTIER(int alterNeu, int gewichtNeu)
