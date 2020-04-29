@@ -14,5 +14,15 @@ public class Hund implements Audio
     {
         return "Wuff";
     }
+    
+    public String getName()
+    {
+        return name;
+    }
+    
+    public int getAlter()
+    {
+        return alter;
+    }
 
 }
