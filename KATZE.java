@@ -6,7 +6,7 @@ public class KATZE implements Audio
     KATZE()
     {
         gewicht = 4;
-        alter = 13;
+        alter = 7;
     }
     
     KATZE(int alterNeu, int gewichtNeu)
