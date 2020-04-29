@@ -15,6 +15,12 @@ public class ALPAKA implements Audio
         alter = alterNeu;
     }
     
+    public void SetAlter(int alterNeu)
+    {
+        alter = alterNeu;
+    }
+    
+    
     public String lautGeben() {
         return "KCHSCH";
     }
