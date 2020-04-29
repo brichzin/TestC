@@ -5,8 +5,8 @@ public class BIENE implements Audio
     
     BIENE()
     {
-        gewicht = 15;
-        alter = 15;
+        gewicht = 0;
+        alter = 0;
     }
     
     BIENE(int alterNeu, int gewichtNeu)
